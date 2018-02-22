@@ -12,6 +12,11 @@ LSI Logic LSI00244 SAS 9201-16i 16Port 6Gb/s SAS/SATA Single Controller Card
 price: $360.53 (amazon - Feb 22, 2018)
 https://www.amazon.com/LSI-Logic-LSI00244-9201-16i-Controller/dp/B00EGSDKJ0
 
+16-PORT Int, 6GB/S Sata+sas, Pcie 2.0; In The Box:
+Lsi Sas 9201-16I, Qig, Driver
+price: $289.99 (amazon prime - Feb 22, 2018)
+https://www.amazon.com/16-PORT-Int-6GB-Sata-Pcie/dp/B003UNP05O/ref=nsa_da_sm_n_au_dka_US_pr_da_1_0?adId=B003UNP05O&creativeASIN=B003UNP05O&linkId=b113a67928ff5a0bddb0a8d94ff65815&tag=servecom-20&linkCode=w47&ref-refURL=https%3A%2F%2Fwww.servethehome.com%2Fbuyers-guides%2Ftop-hardware-components-freenas-nas-servers%2Ftop-picks-freenas-hbas%2F&slotNum=0&imprToken=mrxvDDLleSxG7r17oXghNw&adType=smart&adMode=auto&adFormat=grid&impressionTimestamp=1519324425247
+
 LSI LSI00244 (9201-16i) PCI-Express 2.0 x8 SATA / SAS Host Bus Adapter Card,
 Single Pack--Avago Technologies
 price: $319.99 (newegg - Feb 22, 2018)
