@@ -5,9 +5,28 @@ Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 LSI00244 (9201-16i) PCI-Express 2.0 x8 16Port 6Gb/s SATA/SAS controller card
 
+make:  LSI
+model: LSI00244 (9201-16i)
+
+
+Features
+========
+o Controller: LSI SAS2116
+o x8 PCI Express 2.0 host interface
+o 4x internal SFF-8087 mini-SAS
+o SATA+SAS ports
+o Supporting up to 512 SATA and SAS physical devices.
+o Up to 6Gb/s
+o os: Microsoft Windows, Linux (SuSE, Red Hat), Solaris, and VMware
+
 
 Links
 =====
 LSI Logic LSI00244 SAS 9201-16i 16Port 6Gb/s SAS/SATA Single Controller Card
 price: $360.53 (amazon - Feb 22, 2018)
 https://www.amazon.com/LSI-Logic-LSI00244-9201-16i-Controller/dp/B00EGSDKJ0
+
+LSI LSI00244 (9201-16i) PCI-Express 2.0 x8 SATA / SAS Host Bus Adapter Card,
+Single Pack--Avago Technologies
+price: $319.99 (newegg - Feb 22, 2018)
+https://www.newegg.com/Product/Product.aspx?Item=N82E16816118142
