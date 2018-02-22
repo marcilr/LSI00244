@@ -24,3 +24,25 @@ LSI_SAS_9201-16i_UG_v1.0.pdf (240K)
   August 2011
   DB15-000855-00
   http://theor.jinr.ru/guide/theor2/LSI_SAS_9201-16i_UG_v1.0.pdf
+
+LSI_SAS_9201-16i_QIG.pdf
+  Quick Installation Guide
+  LSI SAS 9201-16i PCI Express® to 6Gb/s SAS Host Bus Adapter
+  NOTE: From page 2:
+        Connect SAS cables between the HBA and the SAS backplane
+        that contains any other SATA or SAS devices.  The
+        LSISAS9201-16i has four internal x4 mini-SAS connectors,
+        each connecting to four 6Gb/s SAS ports. Use the
+        appropriate cable to connect the HBA to SAS or SATA
+        storage devices.
+
+        For connection to internal drives or backplanes, use an
+        internal cable with a standard mini-SAS connector
+        (SFF-8087) on the controller side of the cable.  The
+        other end of the cable may fan out into four SAS-style
+        cables for direct connection to SAS or SATA disk drives.
+        The previous figure shows the connector locations on the
+        LSISAS9201-16i and the use of a controller-based, fan-out
+        cable to connect to drives that require a SAS-style signal
+        connector.
+  https://docs.broadcom.com/docs-and-downloads/host-bus-adapters/LSI_SAS_9201-16i_QIG.pdf
