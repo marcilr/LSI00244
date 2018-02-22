@@ -1,0 +1,13 @@
+LSI00244.txt
+Created Thu Feb 22 08:53:33 AKST 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LSI00244 (9201-16i) PCI-Express 2.0 x8 16Port 6Gb/s SATA/SAS controller card
+
+
+Links
+=====
+LSI Logic LSI00244 SAS 9201-16i 16Port 6Gb/s SAS/SATA Single Controller Card
+price: $360.53 (amazon - Feb 22, 2018)
+https://www.amazon.com/LSI-Logic-LSI00244-9201-16i-Controller/dp/B00EGSDKJ0
