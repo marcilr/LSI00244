@@ -5,6 +5,16 @@ Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 LSI00244 (9201-16i) PCI-Express 2.0 x8 16Port 6Gb/s SATA/SAS controller card
 
+
+"SAS2 - An additional option is the LSI SAS 9201, a 16-port card which
+uses the LSI SAS2116 controller, which is also known to work well and
+only supports HBA usage, not hardware RAID. It is not very popular
+because it is more expensive than a pair of 8-port HBAs."
+
+--FreeNAS Community Hardware Guide
+  Hardware_2016_R1e.pdf, p. 15
+
+
 make:  LSI
 model: LSI00244 (9201-16i)
 
@@ -18,6 +28,38 @@ o SATA+SAS ports
 o Supporting up to 512 SATA and SAS physical devices.
 o Up to 6Gb/s
 o os: Microsoft Windows, Linux (SuSE, Red Hat), Solaris, and VMware
+
+
+Cabling
+=======
+6. Connect SAS cables between the HBA and the SAS backplane
+that contains any other SATA or SAS devices.  The
+LSISAS9201-16i has four internal x4 mini-SAS connectors,
+each connecting to four 6Gb/s SAS ports. Use the
+appropriate cable to connect the HBA to SAS or SATA
+storage devices.
+
+For connection to internal drives or backplanes, use an
+internal cable with a standard mini-SAS connector
+(SFF-8087) on the controller side of the cable.  The
+other end of the cable may fan out into four SAS-style
+cables for direct connection to SAS or SATA disk drives.
+The previous figure shows the connector locations on the
+LSISAS9201-16i and the use of a controller-based, fan-out
+cable to connect to drives that require a SAS-style signal
+connector.
+--Quick Installation Guide
+  LSI SAS 9201-16i PCI Express to 6Gb/s SAS Host Bus Adapter
+  LSI_SAS_9201-16i_QIG.pdf, p. 2
+
+NOTE: The CSE-216 has one 8 Port card installed with:
+Supermicro CBL-0108L-2 39cm (equals 15.35 inches, 1.28 feet)
+  Mini-SAS (SFF-8087 to Mini-SAS (SFF-8087) Internal Cable
+  make:   Supermicro
+  model:  CBL-0108L-02
+  length: measured 14" connector to connector
+  price: $6.49 (ebay - Feb 22, 2018)
+  price: $18.99 (newegg - Feb 22, 2018)
 
 
 Links
